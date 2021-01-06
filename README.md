@@ -15,5 +15,8 @@ http://127.0.0.1:5002/byType/Next+to+jump
 
 returns all Next to jump races with their attributes.
 
+Other types: see race_type.csv
+
 # Development details
 Developing database: see in Create_database notebook
+
