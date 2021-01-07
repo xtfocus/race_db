@@ -18,5 +18,10 @@ returns all Next to jump races with their attributes.
 Other types: see race_type.csv
 
 # Development details
-Developing database: see in Create_database notebook
+For this problem, first I create a database using sqlite3 in python:\
+- define an entity diagram: I come up with 3 entities: Race type, Race venue, Race
+- create a toy database based on this entity diagram
+
+Next, I define how end user can perform `SELECT` query with the parameter `Race type`. I simply construct a `get` method for this purpose.
+
 
